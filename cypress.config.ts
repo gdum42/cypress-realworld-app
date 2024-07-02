@@ -33,6 +33,7 @@ module.exports = defineConfig({
       exclude: "cypress/**/*.*",
     },
     defaultUsername: 'Heath93',
+    accountCreationPassword: 'testPassword',
     defaultPassword: process.env.SEED_DEFAULT_USER_PASSWORD,
     paginationPageSize: process.env.PAGINATION_PAGE_SIZE,
 
